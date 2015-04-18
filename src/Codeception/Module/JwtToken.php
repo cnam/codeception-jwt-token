@@ -14,7 +14,7 @@ class JwtToken extends Module
     protected $config = array(
         'life_time'   => 86400,
         'secret_key'  => 'VERY_SECRET_SIGNING_KEY',
-        'header_name' => 'X-NH-Access-Token'
+        'header_name' => 'X-Access-Token'
     );
 
     /**
