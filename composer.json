@@ -1,0 +1,22 @@
+{
+  "name": "cnam/codeception-jwt-token",
+  "type": "library",
+  "description": "Jwt token module for authentificate with jst token",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Cnam",
+      "email": "cnam812@gmail.com"
+    }
+  ],
+
+  "autoload": {
+    "psr-4": {
+      "Codeception\\Module\\": "src/Codeception/Module/"
+    }
+  },
+
+  "require": {
+    "firebase/php-jwt": "1.0.0"
+  }
+}
